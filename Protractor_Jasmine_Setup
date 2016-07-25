@@ -1,0 +1,28 @@
+
+npm install -g protractor (to save to dependencies in your project use 'npm install protractor --save-dev',will need to have a package.json file created)
+
+webdriver-manager update
+
+webdriver-manager start
+npm install grunt --save-dev
+
+npm install grunt-protractor-runner --save-dev (this is for running protractor within a grunt task)
+
+npm install grunt-protractor-webdriver --save-dev (this is for launching the selenium server through a grunt task)
+
+./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update(this installs a local version of webdriver server in your project)
+
+http://stackoverflow.com/questions/20137109/how-to-debug-angular-protractor-tests-in-webstorm 
+(for debugging in Webstorm)(It expects the cli.js to be in /usr/lib/node_modules/protractor/lib/cli.js 
+but mine was in /usr/local/lib/node_modules/protractor/built/cli.js.
+This means its installed globally but this can be installed locally into your projects)
+
+When degugging and sticking breakpoints on lines of codes, may have to add promises to the protractor methods and then stick a breakpoint inside the promise.
+e.g browser.get('https://angularjs.org').then(function (result) {
+          browser.getCurrentUrl().then(function (result) {
+           console.log(result);
+          })
+        });
+        
+
+
