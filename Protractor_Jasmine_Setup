@@ -10,6 +10,8 @@ npm install grunt-protractor-runner --save-dev (this is for running protractor w
 
 npm install grunt-protractor-webdriver --save-dev (this is for launching the selenium server through a grunt task)
 
+npm install jasmine-spec-reporter --save-dev(for using nicer reporters in the console)
+
 ./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update(this installs a local version of webdriver server in your project)
 
 http://stackoverflow.com/questions/20137109/how-to-debug-angular-protractor-tests-in-webstorm 
