@@ -27,4 +27,5 @@ e.g browser.get('https://angularjs.org').then(function (result) {
         });
         
 
-
+********** IF YOU WANT TO RUN SPECIFIC SET OF TESTS THROUGH GRUNT ************************
+grunt e2e-test --specs='tests/todo-spec2.js'
