@@ -7,3 +7,6 @@ If you get a certificate error using this command 'chmod 400 mykey.pem' on the f
 Commands 
 
 ls -alh (lists all files including hidden files and shows their permissions)
+
+http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_on_EC2_1_setting_up_instance.php (Shows how to shorten the command when ssh in to server)
+http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Install.php (Shows how to use jenkins)
