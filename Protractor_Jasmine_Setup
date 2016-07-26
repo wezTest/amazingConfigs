@@ -13,6 +13,7 @@ npm install grunt-protractor-webdriver --save-dev (this is for launching the sel
 npm install jasmine-spec-reporter --save-dev(for using nicer reporters in the console)
 
 ./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update(this installs a local version of webdriver server in your project)
+./node_modules/protractor/bin/webdriver-manager update
 
 http://stackoverflow.com/questions/20137109/how-to-debug-angular-protractor-tests-in-webstorm 
 (for debugging in Webstorm)(It expects the cli.js to be in /usr/lib/node_modules/protractor/lib/cli.js 
