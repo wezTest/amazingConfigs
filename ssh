@@ -1,6 +1,6 @@
 Get .pem file from email and save it to wherever you are going to run your ssh command.Pem files are encoded certificates used for connecting to servers
 
-command to connect to server ssh -i "ec2key.pem" ec2-user@ec2-50-112-49-39.us-west-2.compute.amazonaws.com (this is the dev/QA server)
+command to connect to server ssh -i "ec2key.pem" ec2-user@ec2-50-112-25-46.us-west-2.compute.amazonaws.com (this is the dev/QA server)
 
 If you get a certificate error using this command 'chmod 400 mykey.pem' on the file so that it is not publicy viewable
 
