@@ -12,6 +12,10 @@ npm install grunt-protractor-webdriver --save-dev (this is for launching the sel
 
 npm install jasmine-spec-reporter --save-dev(for using nicer reporters in the console)
 
+https://www.npmjs.com/package/grunt-jasmine-nodejs (for using jasmine seperately,unit tests)
+
+npm install webdriver-manager --save-dev
+
 ./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update(this installs a local version of webdriver server in your project)
 ./node_modules/protractor/bin/webdriver-manager update
 
