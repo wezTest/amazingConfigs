@@ -12,3 +12,7 @@ http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_on_EC2_1_setting_up_instance.ph
 http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Install.php (Shows how to use jenkins)
 
 sudo passwd gfox (change password for user)
+
+################ ADD USER TO USE ROOT #####################
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
+
