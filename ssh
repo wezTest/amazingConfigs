@@ -36,3 +36,6 @@ http://stackoverflow.com/questions/27350634/how-to-yum-install-node-js-on-amazon
 ############# Adding Jenkins ######################
 http://sanketdangi.com/post/62715793234/install-configure-jenkins-on-amazon-linux
 
+############# Adding Jenkins User As Root #################
+http://stackoverflow.com/questions/29926773/run-shell-command-in-jenkins-as-root-user
+
