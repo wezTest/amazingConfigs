@@ -33,3 +33,6 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
 ############ Add Node ############################
 http://stackoverflow.com/questions/27350634/how-to-yum-install-node-js-on-amazon-linux/35165401#35165401
 
+############# Adding Jenkins ######################
+http://sanketdangi.com/post/62715793234/install-configure-jenkins-on-amazon-linux
+
