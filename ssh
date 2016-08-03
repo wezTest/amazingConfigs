@@ -21,3 +21,6 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack
 ############## ADD APACHE AND CONFIGURE DIRECTORY ##############
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
 
+############ Add Node ############################
+http://stackoverflow.com/questions/27350634/how-to-yum-install-node-js-on-amazon-linux/35165401#35165401
+
