@@ -17,3 +17,6 @@ sudo su (change to root)
 ################ ADD USER TO USE ROOT #####################
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
 
+############## ADD APACHE AND CONFIGURE DIRECTORY ##############
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
+
