@@ -26,6 +26,8 @@ rm -rf community-client-web/ (remove folder called community-client-web/)
 
 ################ ADD USER TO USE ROOT #####################
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
+(Need different .pem file for each user)
+
 
 ############## ADD APACHE AND CONFIGURE DIRECTORY ##############
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
