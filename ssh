@@ -4,6 +4,15 @@ command to connect to server ssh -i "ec2key.pem" ec2-user@ec2-50-112-25-46.us-we
 
 If you get a certificate error using this command 'chmod 400 mykey.pem' on the file so that it is not publicy viewable
 
+############# Shortcut For SSH IN #############
+create a config file in your folder, name it 'config' and have something similar to this
+Host ec2Dev
+  Hostname      ec2-50-112-128-166.us-west-2.compute.amazonaws.com
+  User          gfox
+  IdentityFile  /Users/garyfox/Desktop/gfoxKey.pem
+  
+Then you can just run ssh ec2Dev to get into the server
+
 Commands 
 
 ls -alh (lists all files including hidden files and shows their permissions)
