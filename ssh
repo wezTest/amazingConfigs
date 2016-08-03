@@ -13,6 +13,7 @@ http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Install.php (Shows how to use j
 
 sudo passwd gfox (change password for user)
 sudo su (change to root)
+rm -rf community-client-web/ (remove folder called community-client-web/)
 
 ################ ADD USER TO USE ROOT #####################
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
