@@ -23,6 +23,7 @@ http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Install.php (Shows how to use j
 sudo passwd gfox (change password for user)
 sudo su (change to root)
 rm -rf community-client-web/ (remove folder called community-client-web/)
+tail -f 30 jenkins.log (follow last 30 lines jenkins.log file)
 /var/lib/jenkins
 /var/log/jenkins
 /var/cache/jenkins
