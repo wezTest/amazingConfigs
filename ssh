@@ -28,6 +28,9 @@ tail -f 30 jenkins.log (follow last 30 lines jenkins.log file)
 /var/log/jenkins
 /var/cache/jenkins
 
+######### CHMOD PERMISSIONS ##############
+http://ss64.com/bash/chmod.html
+
 ################ ADD USER TO USE ROOT #####################
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
 (Need different .pem file for each user)
