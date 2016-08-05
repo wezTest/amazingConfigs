@@ -24,6 +24,7 @@ sudo passwd gfox (change password for user)
 sudo su (change to root)
 rm -rf community-client-web/ (remove folder called community-client-web/)
 tail -f 30 jenkins.log (follow last 30 lines jenkins.log file)
+sudo service httpd stop (stop apache)
 /var/lib/jenkins
 /var/log/jenkins
 /var/cache/jenkins
