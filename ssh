@@ -49,3 +49,6 @@ http://sanketdangi.com/post/62715793234/install-configure-jenkins-on-amazon-linu
 ############# Adding Jenkins User As Root #################
 http://stackoverflow.com/questions/29926773/run-shell-command-in-jenkins-as-root-user
 
+########## Add Docker To Dev Server ####################
+http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker
+
