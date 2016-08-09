@@ -25,6 +25,7 @@ sudo su (change to root)
 rm -rf community-client-web/ (remove folder called community-client-web/)
 tail -f 30 jenkins.log (follow last 30 lines jenkins.log file)
 sudo service httpd stop (stop apache)
+cp -i /Users/garyfox/.ssh/ec2key.pem  /Users/garyfox/.ssh/ec2key.pem ec2-user@ec2-50-112-128-166.us-west-2.compute.amazonaws.com:~/usr (copy file from local to remote)
 /var/lib/jenkins
 /var/log/jenkins
 /var/cache/jenkins
