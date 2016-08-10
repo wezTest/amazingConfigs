@@ -35,6 +35,9 @@ cp -i /Users/garyfox/.ssh/ec2key.pem  /Users/garyfox/.ssh/ec2key.pem ec2-user@ec
 http://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent
 http://stackoverflow.com/questions/18470613/git-ssh-public-key-denied
 
+Really shouldn't be running sudo when pulling down from bit bucket
+(if there is problems with fetching .git/HEAD, you may need to give the correct priviliges to that folder so you can run without sudo)
+
 ######### CHMOD PERMISSIONS ##############
 http://ss64.com/bash/chmod.html
 
