@@ -34,3 +34,4 @@ e.g browser.get('https://angularjs.org').then(function (result) {
 
 ********** IF YOU WANT TO RUN SPECIFIC SET OF TESTS THROUGH GRUNT ************************
 grunt e2e-test --specs='tests/todo-spec2.js'
+https://github.com/teerapap/grunt-protractor-runner (look here for different options to be passed to the command line(under section options.args))
