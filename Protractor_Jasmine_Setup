@@ -14,6 +14,8 @@ npm install jasmine-spec-reporter --save-dev(for using nicer reporters in the co
 
 https://www.npmjs.com/package/grunt-jasmine-nodejs (for using jasmine seperately,unit tests)
 
+https://github.com/kwilson/karma-through-grunt/blob/master/source/counter.tests.js (If you want to use karma with jasmine)
+
 npm install webdriver-manager --save-dev
 
 ./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update(this installs a local version of webdriver server in your project)
