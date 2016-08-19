@@ -40,6 +40,7 @@ Really shouldn't be running sudo when pulling down from bit bucket
 
 ######### CHMOD PERMISSIONS ##############
 http://ss64.com/bash/chmod.html
+sudo chown -R ec2-user:ec2-user html(changes ownership of folder and recursive folders inside that to the ec2-user and the group ec2-user)
 
 ################ ADD USER TO USE ROOT #####################
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/ch02s03.html
