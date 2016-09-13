@@ -35,6 +35,11 @@ scp -i /Users/garyfox/.ssh/ec2key.pem  /Users/garyfox/Documents/myfield.txt ec2-
 http://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent
 http://stackoverflow.com/questions/18470613/git-ssh-public-key-denied
 
+############### Zip Files ################
+zip -r test.zip postman/ (zips all files including the parent folder which is 'postman')
+zip -r test.zip ./* (If you want to zip all files within a folder excluding the parent directory)
+unzip test.zip (unzips all files but does not put them into a folder)
+
 Really shouldn't be running sudo when pulling down from bit bucket
 (if there is problems with fetching .git/HEAD, you may need to give the correct priviliges to that folder so you can run without sudo)
 
