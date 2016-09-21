@@ -39,6 +39,13 @@ http://stackoverflow.com/questions/18470613/git-ssh-public-key-denied
 zip -r test.zip postman/ (zips all files including the parent folder which is 'postman')
 zip -r test.zip ./* (If you want to zip all files within a folder excluding the parent directory)
 unzip test.zip (unzips all files but does not put them into a folder)
+sudo unzip UAT_BUILD_${UAT_BUILD_NUMBER}.zip -d UAT_BUILD_${UAT_BUILD_NUMBER}/html (-d specifies to unzip to a particular directory)
+zip -r UAT_BUILD_${UAT_BUILD_NUMBER}.zip ./* -x node_modules/\* bower_components/\* tests/\* (example excluding certain folders in the project)
+
+############# Symlinks ######################
+sudo ln -sf /var/builds/UAT_BUILD_0.0.1/html /var/www/html 
+(symlink is /var/www/html and points to UAT_BUILD_0.0.1/html, 
+the -sf identifies that you are creating a symlink and that if the symlink path already exists it will overwrite it and create the path again)
 
 Really shouldn't be running sudo when pulling down from bit bucket
 (if there is problems with fetching .git/HEAD, you may need to give the correct priviliges to that folder so you can run without sudo)
