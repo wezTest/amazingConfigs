@@ -51,6 +51,10 @@ the -sf identifies that you are creating a symlink and that if the symlink path 
 Creation -> ln -s /var/builds/UAT_BUILD_0.0.1/html html
 Update -> ln -sfn /var/builds/UAT_BUILD_0.0.1/html html
 
+################### Save Jenkins Variable To Property File ####################
+echo LAST_BUILD_NUMBER=$BUILD_NUMBER > /var/lib/jenkins/jobs/Dev\ Pull\ Request\ Branches/builds/lastBuildNumber.properties
+Can use EnvInject Plugin To Read Variables From That File
+
 
 Really shouldn't be running sudo when pulling down from bit bucket
 (if there is problems with fetching .git/HEAD, you may need to give the correct priviliges to that folder so you can run without sudo)
