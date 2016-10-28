@@ -1,0 +1,13 @@
+espresso(native android testing)
+-- Can use 'spoon' to distribute tests to all devices or ConnectedCheck Gradle or Connected Android
+-- Spoon also caters for reporting
+-- Devices on same box as Jenkins
+
+Jmeter
+Angular2
+ec2 Jenkins Deployments
+Runscope
+Monkey Runner(random taps and clicks)
+Test JsonSchema(npm module)
+
+openstf.ie(run devices remotely)
