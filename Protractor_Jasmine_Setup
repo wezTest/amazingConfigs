@@ -1,3 +1,11 @@
+######### Modules To Use ################
+var _ = require('lodash') or underscore.js;
+var env = require('node-env-file');
+var SpecReporter = require('jasmine-spec-reporter');
+var AllureReporter = require('jasmine-allure-reporter');
+var axios = require('axios');
+var mysql = require('mysql');
+
 
 npm install -g protractor (to save to dependencies in your project use 'npm install protractor --save-dev',will need to have a package.json file created)
 
