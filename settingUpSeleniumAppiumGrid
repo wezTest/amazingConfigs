@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.0.1.jar -role node -nodeConfig grid_node.json (grid_node json is slightly different than selenium 2,this is with selenium 3 server)
