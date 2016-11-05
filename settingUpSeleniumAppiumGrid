@@ -1,2 +1,8 @@
 java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.0.1.jar -role node -nodeConfig grid_node.json (grid_node json is slightly different than selenium 2,this is with selenium 3 server)
 https://github.com/garyfoxes/setupConfigs/blob/master/seleniumGridConfig
+
+The deviceName capability cannot be empty in your code when connecting.
+See the appium node json for sample configuration.
+
+To run the appium server and connect to a selenium node the following command works
+appium --nodeconfig /Users/garyfox/Documents/appiumNodeEmulator.json -p 4723 -bp 4724 --default-capabilities "{\"udid\":\"emulator-5554\"}"
