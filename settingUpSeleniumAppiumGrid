@@ -6,3 +6,8 @@ See the appium node json for sample configuration.
 
 To run the appium server and connect to a selenium node the following command works
 appium --nodeconfig /Users/garyfox/Documents/appiumNodeEmulator.json -p 4723 -bp 4724 --default-capabilities "{\"udid\":\"emulator-5554\"}"
+
+DEBUGGING WORK
+Working Directory - /Users/garyfox/WebstormProjects/community-ng (root)
+Javascript File - /usr/local/lib/node_modules/protractor/built/cli.js
+Application Parameters - tests/conf.js  --params.env="dbQA.env"  --params.browsers="chrome" --baseUrl="http://ec2-54-221-23-45.compute-1.amazonaws.com/#/" --specs=tests/integration/web/specs/Voting-spec.js
