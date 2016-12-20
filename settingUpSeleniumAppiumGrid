@@ -11,3 +11,6 @@ DEBUGGING WORK
 Working Directory - /Users/garyfox/WebstormProjects/community-ng (root)
 Javascript File - /usr/local/lib/node_modules/protractor/built/cli.js
 Application Parameters - tests/conf.js  --params.env="dbQA.env"  --params.browsers="chrome" --baseUrl="http://ec2-54-221-23-45.compute-1.amazonaws.com/#/" --specs=tests/integration/web/specs/Voting-spec.js
+
+ARRAY OF SPECS
+ --params.browsers="chrome" --baseUrl="http://ec2-54-221-23-45.compute-1.amazonaws.com/#/" --specs='tests/integration/web/specs/Voting-Spec.js','tests/integration/web/specs/AskQuestion-spec.js' -v
