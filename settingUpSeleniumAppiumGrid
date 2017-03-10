@@ -19,3 +19,5 @@ ARRAY OF SPECS
 NOTE ****CHROME WELCOME SCREEN ON EMULATORS *******
 When using webdriver-manager to run off emulator welcome screen did not appear on api level 24 with CPU "Google Apis Intel Atoms (x86_64)" 7.0.0
 welcome screen did appear on level 25 "Google Apis Intel Atoms (x86_64)" 7.1.1
+
+webdriver-manager update-help (get a list of webdriver-manager commands)
