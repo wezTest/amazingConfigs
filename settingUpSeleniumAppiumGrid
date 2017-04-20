@@ -8,6 +8,7 @@ To run the appium server and connect to a selenium node the following command wo
 appium --nodeconfig /Users/garyfox/Documents/appiumNodeEmulator.json -p 4723 -bp 4724 --default-capabilities "{\"udid\":\"emulator-5554\"}"
 
 To get udid of ios simulator type instruments -s devices
+tmp folder is located in /tmp
 
 DEBUGGING WORK
 Working Directory - /Users/garyfox/WebstormProjects/community-ng (root)
