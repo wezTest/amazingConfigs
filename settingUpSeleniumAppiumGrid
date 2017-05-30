@@ -24,7 +24,7 @@ When using webdriver-manager to run off emulator welcome screen did not appear o
 welcome screen did appear on level 25 "Google Apis Intel Atoms (x86_64)" 7.1.1
 
 ************ UPDATE ON WELCOME SCREEN *************
- Setup AVD emulator Intel Atom x86 (do not use Google API)
+ Setup AVD emulator Intel Atom x86 or Google Api Intel Atom x86 (I got it working for both)
  Got around that by downloading the latest version of Chrome here http://www.apkmirror.com/apk/google-inc/chrome/ (Download the x86 apk)
  You can drag the apk into the emulator and it will install on the emulator
 
