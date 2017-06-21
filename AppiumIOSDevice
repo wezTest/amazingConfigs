@@ -1,1 +1,48 @@
 
+ios-deploy (npm) (Installs and debugs apps above 9.3 without using xcode)
+
+ideviceinstaller (brew) (Installs and debugs apps below 9.3 without using xcode)
+brew ideviceinstaller --HEAD
+
+authorize-ios (npm)
+sudo authorize-ios
+
+ios-webkit_debug_proxy(npm) used for accessing web views on real ios device
+brew install ios-webkit-debug-proxy
+
+XCUITest (apples automation technology that appium uses for 9.3 and above,
+Appium has inbuilt support for XCUITest since 1.6)
+ 
+libimobiledevice (brew) (XCUITest depends on this for certain actions)
+
+Appium uses webdriver-agent to run tests
+
+carthage(Webdriver Agent needs this)
+
+a8df280ac7b7c54235885fac3b6e36f8579164b9
+
+Step 1
+1. Install ios-deploy,ideviceinstaller,ios-webkit-debug-proxy,carthage (not sure if authorize-ios has to be installed)
+
+https://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md
+
+2.Ensure you have an ios developer account (I used cartrawlers developer account)
+
+3.https://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md (Follow setup here)
+I tried all 3 and found that full manual configuration worked for me, may want to try the other 2 next time you are setting it up.
+The 3rd way is good as it runs tests on the device to verify it is up and running and also in the Capabilities object you don't need the "xcodeOrgId": "<Team ID>",
+      "xcodeSigningId": "iPhone Developer"
+      
+      
+4.Start appium up with basic command appium &
+
+5.Start command 'ios_webkit_debug_proxy -c a8df280ac7b7c54235885fac3b6e36f8579164b9:27753 -d' so as it allows webviews to be run on the device
+
+6.In Capabilities object, specify the udid (When using in the grid you might wanna attach this when starting up the appium server)
+
+
+
+
+
+
+
