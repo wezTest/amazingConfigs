@@ -40,7 +40,7 @@ The 3rd way is good as it runs tests on the device to verify it is up and runnin
 
 6.In Capabilities object, specify the udid (When using in the grid you might wanna attach this when starting up the appium server)
 
-
+7. Make sure you specify the platformVersion of the device
 
 
 
