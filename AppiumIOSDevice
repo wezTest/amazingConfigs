@@ -24,7 +24,8 @@ a8df280ac7b7c54235885fac3b6e36f8579164b9
 Step 1
 1. Install ios-deploy,ideviceinstaller,ios-webkit-debug-proxy,carthage (not sure if authorize-ios has to be installed)
 
-https://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md
+dead linkhttps://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md
+new link https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-real-devices.md
 
 2.Ensure you have an ios developer account (I used cartrawlers developer account)
 
