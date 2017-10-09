@@ -26,6 +26,7 @@ welcome screen did appear on level 25 "Google Apis Intel Atoms (x86_64)" 7.1.1
 ************ UPDATE ON WELCOME SCREEN *************
  Setup AVD emulator Intel Atom x86 or Google Api Intel Atom x86 (I got it working for both)
  Got around that by downloading the latest version of Chrome here http://www.apkmirror.com/apk/google-inc/chrome/ (Download the x86 apk)
+ https://github.com/appium/appium/issues/6618#issuecomment-306002680(This comment helped enabled developer options)
  You can drag the apk into the emulator and it will install on the emulator
  
  Pixel Launcher Keeps stopping - Update apk here http://www.appsapk.com/go-launcher-ex/ (Just drag and drop after you download it)
