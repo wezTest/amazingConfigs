@@ -5,7 +5,7 @@ The deviceName capability cannot be empty in your code when connecting.
 See the appium node json for sample configuration.
 
 To run the appium server and connect to a selenium node the following command works
-appium --nodeconfig /Users/garyfox/Documents/appiumNodeEmulator.json -p 4723 -bp 4724 --default-capabilities "{\"udid\":\"emulator-5554\"}"
+appium --nodeconfig /Users/garyfox/Documents/appiumNodeEmulator.json -p 4723 -bp 4724 --default-capabilities "{\"udid\":\"emulator-5554\"}" --webdriveragent-port 2001
 
 To get udid of ios simulator type instruments -s devices
 tmp folder is located in /tmp
