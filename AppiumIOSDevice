@@ -24,11 +24,11 @@ a8df280ac7b7c54235885fac3b6e36f8579164b9
 Step 1
 1. Install ios-deploy,ideviceinstaller,ios-webkit-debug-proxy,carthage (not sure if authorize-ios has to be installed)
 
-https://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md
+https://appium.readthedocs.io/en/stable/en/appium-setup/real-devices-ios/
 
 2.Ensure you have an ios developer account (I used cartrawlers developer account)
 
-3.https://github.com/appium/appium/blob/master/docs/en/appium-setup/real-devices-ios.md (Follow setup here)
+3.https://appium.readthedocs.io/en/stable/en/appium-setup/real-devices-ios/ (Follow setup here)
 I tried all 3 and found that full manual configuration worked for me, may want to try the other 2 next time you are setting it up.
 The 3rd way is good as it runs tests on the device to verify it is up and running and also in the Capabilities object you don't need the "xcodeOrgId": "<Team ID>",
       "xcodeSigningId": "iPhone Developer"
